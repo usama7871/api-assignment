@@ -1,4 +1,3 @@
-// app/fetch-posts/page.tsx
 'use client';
 
 import { useEffect, useState } from 'react';
@@ -41,8 +40,9 @@ export default function FetchPosts() {
         }
         const data: Post[] = await res.json();
         setPosts(data);
-      } catch (err: any) {
-        setError(err.message);
+      } catch (err: unknown) {
+        const message = err instanceof Error ? err.message : 'An error occurred';
+        setError(message);
       } finally {
         setIsLoading(false);
       }

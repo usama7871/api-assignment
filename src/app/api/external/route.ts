@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 
 // Utility function for logging errors
-const logError = (error: any) => {
+const logError = (error: unknown) => {
   console.error('API Error:', error);
 };
 

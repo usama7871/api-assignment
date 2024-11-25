@@ -15,13 +15,13 @@ export default function About() {
         <li>Web development with a strong focus on TypeScript, React, and Next.js</li>
       </ul>
       <p>
-        I believe technology has a huge role to play in revolutionizing healthcare, and I’m working towards creating innovative solutions at the intersection of technology and medicine.
+        I believe technology has a huge role to play in revolutionizing healthcare, and I&apos;m working towards creating innovative solutions at the intersection of technology and medicine.
       </p>
       <p>
-        As I continue to learn and grow in these fields, my goal is to develop meaningful applications that improve lives and bring positive change to the healthcare industry. I'm always eager to collaborate with like-minded individuals and contribute to projects that push the boundaries of what's possible with technology.
+        As I continue to learn and grow in these fields, my goal is to develop meaningful applications that improve lives and bring positive change to the healthcare industry. I&apos;m always eager to collaborate with like-minded individuals and contribute to projects that push the boundaries of what&apos;s possible with technology.
       </p>
       <p>
-        If you're interested in connecting, feel free to visit my <a href="/contact">Contact</a> page or connect with me through the social links on the Contact page!
+        If you&apos;re interested in connecting, feel free to visit my <a href="/contact">Contact</a> page or connect with me through the social links on the Contact page!
       </p>
     </div>
   );
