@@ -16,7 +16,7 @@ export async function GET() {
     }
 
     // Parse the data
-    const data = await res.json();
+    const data: { id: number; title: string; body: string }[] = await res.json();
 
     // Optional: You could validate or transform the data here if necessary
     if (!Array.isArray(data)) {

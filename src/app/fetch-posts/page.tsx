@@ -40,7 +40,7 @@ export default function FetchPosts() {
         }
         const data: Post[] = await res.json();
         setPosts(data);
-      } catch (err: unknown) {
+      } catch (err) {
         const message = err instanceof Error ? err.message : 'An error occurred';
         setError(message);
       } finally {

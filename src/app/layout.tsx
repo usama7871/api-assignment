@@ -1,6 +1,6 @@
-// app/layout.tsx
 import './globals.css';
 import { ReactNode } from 'react';
+import Link from 'next/link';
 
 export const metadata = {
   title: 'My App',
@@ -13,7 +13,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body>
         <header>
           <nav>
-            <a href="/">Home</a> | <a href="/about">About</a> | <a href="/fetch-posts">Posts </a> | <a href="/contact">Contact</a>
+            <Link href="/">Home</Link> | <Link href="/about">About</Link> | <Link href="/fetch-posts">Posts</Link> | <Link href="/contact">Contact</Link>
           </nav>
         </header>
         <main>{children}</main>
