@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # API Assignment
 
 This project demonstrates the usage of **Next.js** to fetch and display data from the **JSONPlaceholder API**. It is a simple web application that showcases posts fetched from an external API and displays them in a user-friendly interface.
@@ -91,6 +90,4 @@ The project follows a simple directory structure:
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
-```
 
->>>>>>> 78e4706afb637b27f54a2396807142fa7f97ac1f
